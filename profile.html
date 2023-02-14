@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+  <head>
+    <title>Quarere</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="icon" type="image/x-icon" href="img\icon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+
+    </head>
+    <body class="" style="background-color: white;">
+      <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light marginfornavbar">
+         <a class="navbar-brand  ms-4 mx-2" href="indexwregistration.html"> <img src="img/logo.png" width="30" height="30" alt="Logo">Quarere</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+           <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cidades</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Faro</a>
+                <a class="dropdown-item" href="#">Guarda</a>
+                <a class="dropdown-item" href="#">Lisboa</a>
+                <a class="dropdown-item" href="#">Porto</a>
+              </div>
+            </li>
+           </ul>
+         </div>
+           <div class=" alignbtn1" id="navbarNavDropdown">
+             <button class="btn btn-dark alignbtn1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-person" style="top:-5px;"></i>
+                Área Pessoal
+             </button>
+             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+               <a class="dropdown-item" href="Reservas.html">Reservas</a>
+               <a class="dropdown-item" href="profile.html">Perfil</a>
+               <a class="dropdown-item" href="profile.html">Alterar Palavra-Passe</a>
+               <a class="dropdown-item text-danger" href="index.html">Logout</a>
+           </div>
+         </form>
+       </nav>
+       </header>
+           <!--BreadCrums-->
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+      <ol class="breadcrumb container">
+        <li style="color: white;" class="breadcrumb-item"><a href="indexwregistration.html">Home</a></li>
+        <li style="color: black;" class="breadcrumb-item active" aria-current="page">Perfil</li>
+      </ol>
+    </nav>
+    <!--BreadCrums-->
+        <main>
+
+            <div class="container rounded bg-white mt-5 mb-5">
+                <div class="row" style="background-color: aliceblue; border-radius: 20px;">
+                    <div class="col-md-3 border-right">
+                        <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="img/avatar-f440607b0e630567f20b647f8c77cc19.jpg"><span class="font-weight-bold">João Coelho</span><span class="text-black-50">joaocool124t3@gmail.com</span><span> </span></div>
+                    </div>
+                    <div class="col-md-9 border-right">
+                        <div class="p-3 py-5">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="text-right">Profile Settings</h4>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-6"><label class="labels">Nome</label><input type="text" class="form-control" placeholder="Nome" value="João"></div>
+                                <div class="col-md-6"><label class="labels">Apelido</label><input type="text" class="form-control" placeholder="Apelido" value="Coelho"></div>
+                                <div class="col-md-6"><label class="labels">Data Nascimento</label><input type="text" class="form-control" placeholder="Nascimento" value="10/01/2022"></div>
+                                <div class="col-md-6"><label class="labels">Género</label><input type="text" class="form-control" placeholder="Género" value="Masculino"></div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-12"><label class="labels">Telemóvel</label><input type="text" class="form-control" placeholder="Número de Telemóvel" value="998877665"></div>
+                                <div class="col-md-12"><label class="labels">Morada</label><input type="text" class="form-control" placeholder="Morada 1" value="Rua do Largo"></div>
+                                <div class="col-md-12"><label class="labels">Linha 2</label><input type="text" class="form-control" placeholder="Morada linha 2" value="1300-000"></div>
+                                <div class="col-md-12"><label class="labels">Código Postal</label><input type="text" class="form-control" placeholder="Códgo Postal" value="1300-000"></div>
+                                <div class="col-md-12"><label class="labels">Localdade</label><input type="text" class="form-control" placeholder="enter address line 2" value="Porto"></div>
+                                <div class="col-md-12"><label class="labels">Email</label><input type="text" class="form-control" placeholder="enter email id" value="joãocool124t3@gmail.com"></div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-6"><label class="labels">País</label><input type="text" class="form-control" placeholder="country" value="Portugal"></div>
+                                <div class="col-md-6"><label class="labels">Cidade</label><input type="text" class="form-control" value="Coimbra" placeholder="state"></div>
+                            </div>
+                            <div class="mt-5 text-center"><a class="btn btn-dark profile-button alignbtn1" type="button">Guardar Alterações</a></div>
+                            <div class="mt-5 text-center"><a class="btn btn-dark profile-button alignbtn1 margembutao" type="button">Ver Reservas</a></div>
+                            <br>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="text-right">Alterar Palavra-Passe</h4>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-12"><label class="labels"></label><input type="text" class="form-control" placeholder="Palavra Passe Atual" value=""></div>
+                                <div class="col-md-12"><label class="labels"></label><input type="text" class="form-control" placeholder="Nova Palavra Passe" value=""></div>
+                                <div class="col-md-12"><label class="labels"></label><input type="text" class="form-control" placeholder="Confirmar Palavra Passe" value=""></div>
+                                <div class="mt-5 text-center"><a class="btn btn-dark profile-button alignbtn1" type="button">Guardar Alteração</a></div>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            </div>
+            </div>
+<br>
+        </main>
+        <footer class=" text-center text-black" style="background-color:aliceblue;">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+                ><i class="bi-facebook"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+                ><i class="bi-twitter"></i
+              ></a>
+        
+              <!-- Google -->
+              <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+                ><i class="bi-google"></i
+              ></a>
+        
+              <!-- Instagram -->
+              <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+                ><i class="bi-instagram"></i
+              ></a>
+        
+              <!-- Linkedin -->
+              <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"
+                ><i class="bi-linkedin"></i
+              ></a>
+        
+              <!-- Github -->
+              <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+                  <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+                </svg>
+              </a>
+            </section>
+            <!-- Section: Social media -->
+        
+            <!-- Section: Form -->
+            <section class="">
+              <form action="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <p class="pt-2">
+                      <strong>Receba notificações personalizadas com o nosso newsletter</strong>
+                    </p>
+                  </div>
+                  <!--Grid column-->
+        
+                  <!--Grid column-->
+                  <div class="col-md-5 col-12">
+                    <!-- Email input -->
+                    <div class="form-outline form-white mb-4">
+                      <input type="email" id="form5Example21" class="form-control" />
+                      <label class="form-label" id="emailnews" for="form5Example21">Email</label>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+        
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-dark mb-4">
+                      Inscreva-se
+                    </button>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </form>
+            </section>
+            <!-- Section: Form -->
+        
+            <!-- Section: Text -->
+            <section class="mb-4">
+              <p>
+                A Quarere é um website que disponibiliza uma vasta oferta de alojamentos para qualquer ocasião. 
+                Através dos nossos motores de pesquisa, poderá encontrar o alojamento à medida das suas necessidades e com as comodidades mais desejadas!
+              </p>
+            </section>
+            <!-- Section: Text -->
+        
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">    
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="indexwregistration.html" class="h5 text-black">Quarere</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">   
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="profile.html" class="h5 text-black ">Área Pessoal</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="Reservas.html" class="h5 text-black">Reservas</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!" class="h5 text-black">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color:rgb(205, 227, 247);">
+            <a class="text-dark" href="https://www.estg.ipp.pt/"> © Quarere Portugal</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </body>
+</html>

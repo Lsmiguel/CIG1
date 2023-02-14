@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!--Título-->
+    <title>Quarere | Faro </title>
+    <!--Logo-->
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+
+    <!--Meta tags-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!--Tipo de Letra-->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </head>
+  <body class="" style="background-color: white;">
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light marginfornavbar">
+        <a class="navbar-brand  ms-4 mx-2" href="indexwregistration.html"> <img src="img/logo.png" width="30" height="30" alt="Logo">Quarere</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cidades</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Faro</a>
+                <a class="dropdown-item" href="#">Guarda</a>
+                <a class="dropdown-item" href="#">Lisboa</a>
+                <a class="dropdown-item" href="#">Porto</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class=" alignbtn1" id="navbarNavDropdown">
+        <button class="btn btn-dark alignbtn1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-person" style="top:-5px;"></i> Área Pessoal</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="Reservas.html">Reservas</a>
+          <a class="dropdown-item" href="profile.html">Perfil</a>
+          <a class="dropdown-item" href="profile.html">Alterar Palavra-Passe</a>
+          <a class="dropdown-item text-danger" href="index.html">Logout</a>
+        </div>
+      </nav>
+    </header>
+    <main class="my-3 container">
+      <!--BreadCrums-->
+      <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb container my-3">
+          <li style="color: rgb(0, 0, 0);" class="breadcrumb-item"><a href="indexwregistration.html">Home</a></li>
+          <li style="color:rgb(0, 0, 0);" class="breadcrumb-item active" aria-current="page">Pesquisa</li>
+        </ol>
+      </nav>
+      <!--BreadCrums-->
+      <div class="">
+        <h1 class=" mb-3 font-weight-bold" style="color:rgb(0, 0, 0); text-decoration: solid;">Resultados para Faro:</h1>
+      </div>
+      <!---Butões de Navegação-->
+      <div class="d-flex">
+        <div class="">
+          <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filtros</button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="pesquisaFaroOC.html">Preço Crescente</a>
+            <a class="dropdown-item" href="pesquisaFaroOD.html">Preço Decrescente</a>
+            <a class="dropdown-item" href="pesquisaFaro.html">Relevante</a>
+          </div>
+        </div>
+        <div class="dropdown pesquisamargem">
+          <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comodidades</button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Comodidades</a>
+            <a class="dropdown-item" href="#">Piscina</a>
+          </div>
+        </div>
+      </div>
+      <!--Fim Butões Navegação-->
+      <div class="row row-cols-1 row-cols-md-3 g-4 my-0">
+        <div class="col">
+          <div class="card h-100" style="background-color:aliceblue; border-color: aliceblue;">
+            <img src="img/AlojFaro1/1.jpg" class="card-img-top" alt="TURIM Presidente Hotel" />
+            <div class="card-body">
+              <a href="viewFaro5.html" class="card-title h5" style="color: black;">TURIM Presidente Hotel</a>
+              <p class="card-text"></p><i class="bi bi-geo-alt"></i> Faro | Hotel | 9.2 | Wifi | Pequeno Almoço Incluído | Estacionamento Gratuíto | +5</p>
+              <h5 class="card-title text-end"> 60€</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 " style="background-color:aliceblue; border-color: aliceblue;">
+            <img src="img/ResortFaro1/12.jpg" class="card-img-top" alt="VidaMar Resort" />
+            <div class="card-body">
+              <a href="viewFaro3.html" class="card-title h5" style="color: black;">VidaMar Resort</a>
+              <p class="card-text my-2"><i class="bi bi-geo-alt"></i> Faro | Resort | 9.7 | Wifi | Piscina | Sauna | Spa | +5</p>
+              <h5 class="card-title text-end my-4"> 55€</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="background-color:aliceblue; border-color: aliceblue;">
+            <img src="img/HotelFaro2/1.jpg" class="card-img-top" alt="Hotel Sol"/>
+            <div class="card-body">
+              <a href="viewFaro4.html" class="card-title h5" style="color: black;">Hotel Sol</a>
+              <p class="card-text my-3"><i class="bi bi-geo-alt"></i> Faro | Hotel | 8.2 | Wifi | Pequeno Almoço Incluído | +5</p>
+              <h5 class="card-title text-end"> 40€</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 my-3">
+        <div class="col">
+          <div class="card h-100" style="background-color:aliceblue; border-color: aliceblue;">
+            <img src="img/AlojFaro2/1.jpg" class="card-img-top" alt="Rio Arade Algarve" />
+            <div class="card-body">
+              <a href="viewFaro3.html" class="card-title h5" style="color: black;">Rio Arade Algarve</a>
+              <p class="card-text"></p><i class="bi bi-geo-alt"></i> Faro | Alojamento Local | 7.8 | Wifi | Pequeno Almoço Incluído | +5</p>
+              <h5 class="card-title text-end"> 35€</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="background-color:aliceblue; border-color: aliceblue;">
+            <img src="img/HotelFaro1/1.jpg" class="card-img-top" alt="Hotel Colina Dos Mouros" />
+            <div class="card-body">
+              <a href="viewFaro2.html" class="card-title h5" style="color: black;">Hotel Colina Dos Mouros</a>
+              <p class="card-text my-2"><i class="bi bi-geo-alt"></i> Faro | Hotel | 9.4 | Wifi | Pequeno Almoço Buffet Incluído | +5</p>
+              <h5 class="card-title text-end"> 35€</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="background-color:aliceblue; border-color: aliceblue;" >
+            <img src="img/HostelFaro1/2.jpg" class="card-img-top" alt="Casa d'Alagoa"/>
+            <div class="card-body">
+              <a href="viewFaro1.html" class="card-title h5" style="color: black;">Casa d'Alagoa</a>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> Faro | Hostel | 7.5 | Wifi | Estacionamento Gratuíto | +5 </p>
+              <h5 class="card-title text-end">28€</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Footer-->
+    <br><br><br>
+    <footer class=" text-center text-black" style="background-color:aliceblue;">
+      <div class="container p-4">
+        <section class="mb-4">
+          <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="bi-facebook"></i></a>
+          <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="bi-twitter"></i></a>
+          <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="bi-google"></i></a>
+          <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="bi-instagram"></i></a>
+          <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="bi-linkedin"></i></a>
+          <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+            </svg>
+          </a>
+        </section>
+        <section class="">
+          <form action="">
+            <div class="row d-flex justify-content-center">
+              <div class="col-auto">
+                <p class="pt-2"><strong>Inscreva-se no nosso newsletter</strong></p>
+              </div>
+              <div class="col-md-5 col-12">
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example21" class="form-control" />
+                  <label class="form-label" id="emailnews" for="form5Example21">Email</label>
+                </div>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-dark mb-4">Inscreva-se</button>
+              </div>
+            </div>
+          </form>
+        </section>
+        <section class="mb-4">
+          <p>A Quarere é um website que disponibiliza uma vasta oferta de alojamentos para qualquer ocasião. 
+             Através dos nossos motores de pesquisa, poderá encontrar o alojamento à medida das suas necessidades e com as comodidades mais desejadas!
+          </p>
+        </section>
+        <section class="">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="indexwregistration.html" class="h5 text-black">Quarere</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">   
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="profile.html" class="h5 text-black ">Área Pessoal</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="Reservas.html" class="h5 text-black">Reservas</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="h5 text-black">Blog</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color:rgb(205, 227, 247);">
+        <a class="text-dark" href="https://www.estg.ipp.pt/"> © Quarere Portugal</a>
+      </div>     
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!--Título-->
+    <title>Quarere</title>
+    <!--Logo-->
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+
+    <!--Meta tags-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!--Tipo de Letra-->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </head>
+  <body class="backgroundwithimage" alt="Imagem Background" style="background-color:white;">
+    <header class="container-fluid">
+      <nav class="navbar navbar-dark navbar-expand-lg navbar-light marginfornavbar">
+        <a class="navbar-brand  ms-4 mx-2" href="indexwregistration.html"> <img src="img/logo.png" width="30" height="30" alt="Logo">Quarere</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cidades</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Faro</a>
+                <a class="dropdown-item" href="#">Guarda</a>
+                <a class="dropdown-item" href="#">Lisboa</a>
+                <a class="dropdown-item" href="#">Porto</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class=" alignbtn1" id="navbarNavDropdown">
+        <button class="btn btn-dark alignbtn1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-person" style="top:-5px;"></i> Área Pessoal</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="Reservas.html">Reservas</a>
+          <a class="dropdown-item" href="profile.html">Perfil</a>
+          <a class="dropdown-item" href="profile.html">Alterar Palavra-Passe</a>
+          <a class="dropdown-item text-danger" href="index.html">Logout</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+        <div class="row gx-lg-5 align-items-center mb-5">
+          <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+            <h1 class="my-2 display-5 fw-bold ls-tight" style="color:aliceblue">Olá João! :D</h1>
+            <h1 class="my-3 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">As melhores ofertas <br/><span style="color:darksalmon">para as suas necessidades</span></h1>
+            <p class="mb-4 opacity-70" style="color: whitesmoke">Encontre variados tipos de alojamentos em diversas cidades de Portugal aos melhores preços.</p>
+          </div>
+          <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+            <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+            <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+            <div class="card-body px-4 py-5 px-md-5">
+              <form>
+              <!--Cidade-->
+                <div class="form-outline mb-4 my-2">
+                  <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder=" Cidade ">
+                  <datalist id="datalistOptions">
+                    <option value="Guarda">
+                    <option value="Faro">
+                    <option value="Lisboa">
+                    <option value="Porto">
+                  </datalist>
+                </div>
+              <!-- Pessoas -->
+                <div class="row">
+                  <div class="col-md-6 mb-4 my-2">
+                    <div class="form-outline">
+                      <select class="form-select" aria-label="Disabled select example" enabled>
+                        <option selected>Pessoas</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="6+">6+</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 my-2">
+                    <div class="form-outline">
+                      <select class="form-select" aria-label="Disabled select example" enabled>
+                        <option selected>Criaças</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="6+">6+</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              <!--Datas input -->
+                <div class="row">
+                  <div class="col-md-6 mb-4 my-2">
+                    <div class="form-outline">
+                      <input placeholder="Data-Início" type="text" onfocus="(this.type = 'date')" class="form-control" >
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4 my-2">
+                    <input placeholder="Data-Fim" type="text" onfocus="(this.type = 'date')" class="form-control" >
+                  </div>
+                </div>
+              <!-- Quartos input -->
+                <div class="form-outline mb-4 my-2">
+                  <select class="form-select" aria-label="Disabled select example" enabled>
+                    <option selected>Quartos</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+              <!-- Pesquisa Avançada-->
+                <div class="dropdown d-flex justify-content-between my-4">
+                  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comodidades</button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="1" id="Pequeno"/>
+                      <label class="form-check-label" for="flexCheckDefault">Pequeno Almoço</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="2" id="Cancelamento"/>
+                      <label class="form-check-label" for="flexCheckDefault">Cancelamento Gratuito</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="3" id="Descontos"/>
+                      <label class="form-check-label" for="flexCheckDefault">Descontos para crianças</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="4" id="Parque"/>
+                      <label class="form-check-label" for="flexCheckDefault">Parque</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="5" id="Wifi"/>
+                      <label class="form-check-label" for="flexCheckDefault">Wifi</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="6" id="Ar"/>
+                      <label class="form-check-label" for="flexCheckDefault">Ar Condicionado</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="7" id="Piscicna"/>
+                      <label class="form-check-label" for="flexCheckDefault">Piscina</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="8" id="Estacionamento"/>
+                      <label class="form-check-label" for="flexCheckDefault">Estacionamento Gratuito</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="9" id="Checkout"/>
+                      <label class="form-check-label" for="flexCheckDefault">Checkout tardio</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="9" id="Checkout2"/>
+                      <label class="form-check-label" for="flexCheckDefault">Checkout Perso</label>
+                    </div>
+                  </div>
+                  <a href="pesquisa.html" target="_blank"  id="pesquisabtn" class="btn btn-dark me-1 mx-5 ml-auto" type="submit">Procurar</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="container">
+        <p class="h1 my-4 text-light my-3" style=>Os destaques desta Semana:</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100" style="background-color: aliceblue;">
+              <img src="img/Hotel 1/1.jpg" class="card-img-top" alt="Hotel Botique"/>
+              <div class="card-body">
+                <a href="viewLisboa1.html" class="card-title h5" style="color: black;">Hotel Botique</a>
+                <p class="card-text my-1"><i class="bi bi-geo-alt"></i> Lisboa | Hotel | 9.5 | Wifi | Estacionamento Gratuíto</p>
+                <h5 class="card-title text-end"> 40€</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" style="background-color: aliceblue;">
+              <img src="img/Hotel 2/1.jpg" class="card-img-top" alt="Be Lisbon Hostel" />
+              <div class="card-body">
+                <a href="viewLisboa2.html" class="card-title h5" style="color: black;">Be Lisbon Hostel</a>
+                <p class="card-text my-1"><i class="bi bi-geo-alt"></i> Lisboa | Hotel | 8.4 | Wifi | Estacionamento Gratuíto</p><h5 class="card-title text-end"> 35€</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" style="background-color: aliceblue;">
+              <img src="img/Hotel 3/2.jpg" class="card-img-top" alt="Hotel Panton" />
+              <div class="card-body">
+                <a href="viewPorto4.html" class="card-title h5" style="color: black;">Hotel Panton</a>
+                <p class="card-text"><i class="bi bi-geo-alt"></i> Porto | Hotel | 9.5 | Wifi | Estacionamento Gratuíto</p><h5 class="card-title text-end"> 65€</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <p class="h3 my-5">Alojamentos em Promoção:</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="top: -15px;">
+          <div class="col">
+            <div class="card h-100" style="background-color: aliceblue;" >
+              <img src="img/Hotel 4/1.jpg" class="card-img-top" alt="Chalés da Montanha"/>
+              <div class="card-body">
+                <a href="viewGuarda1.html" class="card-title h5" style="color: black;">Chalés da Montanha</a>
+                <p class="card-text my-1"><i class="bi bi-geo-alt"></i>Guarda | Alojamento Local | 9.7 | Wifi | Estacionamento Gratuíto | + 5</p>
+                <h5 class="card-title text-end"> <del>120€</del> <span class="badge text-black" style="background-color: rgb(255, 0, 0);">Agora: 85€</span> </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" style="background-color: aliceblue;">
+              <img src="img/Hotel 5/1.jpg" class="card-img-top" alt="Estrela Hostel" />
+              <div class="card-body">
+                <a href="viewGuarda2.html" class="card-title h5" style="color: black;">Estrela Hotel</a>
+                <p class="card-text my-1"><i class="bi bi-geo-alt"></i>Guarda | Hostel | 9.3 | Wifi | Estacionamento Gratuíto | + 5</p>
+                <h5 class="card-title text-end"> <del>100€</del> <span class="badge text-black" style="background-color: rgb(255, 0, 0);">Agora: 95€</span> </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" style="background-color: aliceblue;">
+              <img src="img/Hotel 6/1.jpg" class="card-img-top" alt="Resort do Norte" />
+              <div class="card-body">
+                <a href="viewPorto5.html" class="card-title h5" style="color: black;">Resort do Norte</a>
+                <p class="card-text my-1"><i class="bi bi-geo-alt"></i>Porto | Resort | 8.9 | Wifi | Estacionamento Gratuíto | + 5</p>
+                <h5 class="card-title text-end"> <del>80€</del> <span class="badge text-black" style="background-color: rgb(255, 0, 0);">Agora: 70€</span> </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="container">
+        <p class="h3 my-5">As nossas recomendações:</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="top: -15px;">
+          <div class="col">
+            <div class="card h-100" style="background-color: aliceblue;" >
+              <img src="img/Hotel 4/1.jpg" class="card-img-top" alt="Chalés da Montanha"/>
+              <div class="card-body">
+                <a href="viewGuarda1.html" class="card-title h5" style="color: black;">Chalés da Montanha</a>
+                <p class="card-text my-1"><i class="bi bi-geo-alt"></i>Alojamento Local | 9.7 | Wifi | Estacionamento Gratuíto</p>
+                <h5 class="card-title text-end">85€</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" style="background-color: aliceblue;">
+              <img src="img/Hotel 1/1.jpg" class="card-img-top" alt="Hotel Botique" />
+              <div class="card-body">
+                <a href="viewLisboa1.html" class="card-title h5" style="color: black;">Hotel Botique</a>
+                <p class="card-text"><i class="bi bi-geo-alt"></i>Lisboa | Hotel | 9.5 | Wifi | Estacionamento Gratuíto</p>
+                <h5 class="card-title text-end">40€ </h5> 
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" style="background-color: aliceblue;">
+              <img src="img/Hotel 6/1.jpg" class="card-img-top" alt="Resort do Norte" />
+              <div class="card-body">
+                <a href="viewPorto5.html" class="card-title h5" style="color: black;">Resort do Norte</a>
+                <p class="card-text"><i class="bi bi-geo-alt"></i>Porto | Resort | 8.9 | Wifi | Estacionamento Gratuíto | + 5</p>
+                <h5 class="card-title text-end">70€ </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="container">
+        <p class="h3 my-5">Baseado nas suas pesquisas</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="top: -15px;">
+          <div class="col">
+            <div class="card h-100" style="background-color: aliceblue;" >
+              <img src="img/Hotel 4/1.jpg" class="card-img-top" alt="Chalés da Montanha"/>
+              <div class="card-body">
+                <a href="viewGuarda1.html" class="card-title h5" style="color: black;">Chalés da Montanha</a>
+                <p class="card-text"><i class="bi bi-geo-alt"></i>Alojamento Local | 9.7 | Wifi | Estacionamento Gratuíto</p>
+                <h5 class="card-title text-end">85€</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" style="background-color: aliceblue;">
+              <img src="img/Hotel 1/1.jpg" class="card-img-top" alt="Hotel Botique" />
+              <div class="card-body">
+                <a href="viewLisboa1.html" class="card-title h5" style="color: black;">Hotel Botique</a>
+
+                <p class="card-text"><i class="bi bi-geo-alt"></i>Lisboa | Hotel | 9.5 | Wifi | Estacionamento Gratuíto</p>
+                <h5 class="card-title text-end">40€ </h5> 
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" style="background-color: aliceblue;">
+              <img src="img/Hotel 6/1.jpg" class="card-img-top" alt="Resort do Norte" />
+              <div class="card-body">
+                <a href="viewPorto5.html" class="card-title h5" style="color: black;">Resort do Norte</a>
+                <p class="card-text"><i class="bi bi-geo-alt"></i>Porto | Resort | 8.9 | Wifi | Estacionamento Gratuíto | + 5</p>
+                <h5 class="card-title text-end">70€ </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br><br><br><br>
+      </main>
+      <!--Footer-->
+      <footer class=" text-center text-black" style="background-color:aliceblue;">
+        <div class="container p-4">
+          <section class="mb-4">
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="bi-facebook"></i></a>
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="bi-twitter"></i></a>
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="bi-google"></i></a>
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="bi-instagram"></i></a>
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="bi-linkedin"></i></a>
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+              </svg>
+            </a>
+          </section>
+          <section class="">
+            <form action="">
+              <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                  <p class="pt-2"><strong>Inscreva-se no nosso newsletter</strong></p>
+                </div>
+                <div class="col-md-5 col-12">
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example21" class="form-control" />
+                    <label class="form-label" id="emailnews" for="form5Example21">Email</label>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-dark mb-4">Inscreva-se</button>
+                </div>
+              </div>
+            </form>
+          </section>
+          <section class="mb-4">
+            <p>A Quarere é um website que disponibiliza uma vasta oferta de alojamentos para qualquer ocasião. 
+               Através dos nossos motores de pesquisa, poderá encontrar o alojamento à medida das suas necessidades e com as comodidades mais desejadas!
+            </p>
+          </section>
+          <section class="">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">    
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="indexwregistration.html" class="h5 text-black">Quarere</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">   
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="profile.html" class="h5 text-black ">Área Pessoal</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="Reservas.html" class="h5 text-black">Reservas</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="h5 text-black">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="text-center p-3" style="background-color:rgb(205, 227, 247);">
+          <a class="text-dark" href="https://www.estg.ipp.pt/"> © Quarere Portugal</a>
+        </div>     
+      </footer>
+    </body>
+    <script> 
+    //Calendário
+      $(".checkbox-menu").on("change", "input[type='checkbox']", function() {
+        $(this).closest("li").toggleClass("active", this.checked);
+      });
+      $(document).on('click', '.allow-focus', function (e) {
+      e.stopPropagation();
+      });
+    //Pesquisa
+      document.getElementById("exampleDataList").addEventListener("input", function(event) {
+        switch (event.target.value) {
+          case "Porto":
+            document.getElementById("pesquisabtn").href = "pesquisaPorto.html";
+            break;
+          case "Lisboa":
+            document.getElementById("pesquisabtn").href = "pesquisaLisboa.html";
+            break;
+          case "Guarda":
+            document.getElementById("pesquisabtn").href = "pesquisaGuarda.html";
+            break;
+          case "Gerês":
+            document.getElementById("pesquisabtn").href = "pesquisaGeres.html";
+            break;
+          case "Faro":
+            document.getElementById("pesquisabtn").href = "pesquisaFaro.html";
+            break;
+          default:
+            document.getElementById("pesquisabtn").href = "indexwregistration.html";
+            break;
+        }
+      });
+    </script>
+  </html>
+    
+
